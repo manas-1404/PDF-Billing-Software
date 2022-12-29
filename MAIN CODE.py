@@ -581,7 +581,7 @@ pdf.output(bname + '.pdf')
 mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    password="onepiece@09",
+    password="password",
     database="project"
 )
 mycursor = mydb.cursor()
